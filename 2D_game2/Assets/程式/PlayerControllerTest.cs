@@ -5,18 +5,20 @@ using UnityEngine;
 public class PlayerControllerTest : MonoBehaviour
 {
     public float moveSpeed;
-    // Start is called before the first frame update
+    public Rigidbody2D rb;
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        Vector2 rubyMove = transform.position;
-        rubyMove.x = rubyMove.x + Input.GetAxis("Horizontal") * moveSpeed;
+        Vector2 rubyMove = new Vector2();
+        rubyMove = transform.position;
+        rubyMove.x += Input.GetAxis("Horixontal") * Time.deltaTime;
+        rubyMove.y -= Input.GetAxis("Vertical") * Time.deltaTime;
 
-        transform.position = rubyMove;
+        rb.MovePosition(rubyMove);
     }
 }

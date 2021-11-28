@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 8038 MB
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'zh' Physical Memory: 8038 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/2D_game_V2/2D_game2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56143
+54097
 Successfully changed project path to: D:/2D_game_V2/2D_game2
 D:/2D_game_V2/2D_game2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.10 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,102 +35,243 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001955 seconds.
+Registered in 0.002258 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.91 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.687 seconds
+- Completed reload, in  1.094 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000712 seconds.
+Registered in 0.001208 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.14 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
+- Completed reload, in  1.013 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.8 MB.
-System memory in use after: 84.8 MB.
+System memory in use after: 84.9 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 1.817500 ms (FindLiveObjects: 0.173000 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.537900 ms  DeleteObjects: 0.053600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/場景
-  artifactKey: Guid(7fc0aebb362952b4bba388c065d1f3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景 using Guid(7fc0aebb362952b4bba388c065d1f3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca3843ebf12a9fe4182d4905f72f593') in 0.023318 seconds
-  Import took 0.132463 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 113.97 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 48.7 MB.
-System memory in use after: 48.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 2.924200 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.659000 ms  DeleteObjects: 0.020000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000689 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1800 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.3 MB.
-System memory in use after: 84.4 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 1.804200 ms (FindLiveObjects: 0.139300 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.594900 ms  DeleteObjects: 0.014900 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 1.825400 ms (FindLiveObjects: 0.169700 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.539800 ms  DeleteObjects: 0.057100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 632.066158 seconds.
-  path: Assets/程式/RubyMove.cs
-  artifactKey: Guid(e97be1b0d3472b94d9e27425f99bff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/程式/RubyMove.cs using Guid(e97be1b0d3472b94d9e27425f99bff39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925b65b7452b46bf4337c626192673b6') in 0.058847 seconds
-  Import took 0.337122 seconds .
+  path: Assets/物件/FloorBricksToGrassCorner_25 1.asset
+  artifactKey: Guid(e8b2740bdaca7504e89a43291506d97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件/FloorBricksToGrassCorner_25 1.asset using Guid(e8b2740bdaca7504e89a43291506d97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657a01be1856b4f203a5886de6ec21e3') in 0.098346 seconds
+  Import took 0.158304 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.114977 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.563 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1800 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.4 MB.
-System memory in use after: 84.5 MB.
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/物件/FloorBricksToGrassCorner_27 1.asset
+  artifactKey: Guid(72dda2dca9031ca4cbb3955cfaddc850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件/FloorBricksToGrassCorner_27 1.asset using Guid(72dda2dca9031ca4cbb3955cfaddc850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2132f3a430816b0d54db48395ab47c') in 0.008425 seconds
+  Import took 0.033058 seconds .
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2262.
-Total: 5.759400 ms (FindLiveObjects: 0.466700 ms CreateObjectMapping: 0.213800 ms MarkObjects: 5.021300 ms  DeleteObjects: 0.053800 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/物件/FloorBricksToGrassCorner_23 1.asset
+  artifactKey: Guid(5745993cf93b04d41bf07a66141ec9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件/FloorBricksToGrassCorner_23 1.asset using Guid(5745993cf93b04d41bf07a66141ec9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db75eb24caa18fb310f981752aedd0b') in 0.007453 seconds
+  Import took 0.010119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/物件/FloorBricksToGrassCorner_19 1.asset
+  artifactKey: Guid(baee62e5ac6ca8743a5916dc84484ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件/FloorBricksToGrassCorner_19 1.asset using Guid(baee62e5ac6ca8743a5916dc84484ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6989b330aeb20b532a803d70f95de1ec') in 0.026414 seconds
+  Import took 0.063761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/物件/FloorBricksToGrassCorner_22 1.asset
+  artifactKey: Guid(6116c3660dbb59b4caef47845e19446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件/FloorBricksToGrassCorner_22 1.asset using Guid(6116c3660dbb59b4caef47845e19446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911879a16e25c844ab79ddab87e028e0') in 0.014190 seconds
+  Import took 0.059308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/物件/FloorBricksToGrassCorner_24 1.asset
+  artifactKey: Guid(5f39bb711b271a343b88f531dcb552d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件/FloorBricksToGrassCorner_24 1.asset using Guid(5f39bb711b271a343b88f531dcb552d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94011ac7257da3f769406933dd53066') in 0.015956 seconds
+  Import took 0.042632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/物件/FloorBricksToGrassCorner_21 1.asset
+  artifactKey: Guid(0f246af38b2cea849ad874122a2e9792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件/FloorBricksToGrassCorner_21 1.asset using Guid(0f246af38b2cea849ad874122a2e9792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f7be0f188aa5df18604e5fbcb6a5be') in 0.009267 seconds
+  Import took 0.030803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/物件/FloorBricksToGrassCorner_20 1.asset
+  artifactKey: Guid(b0fddf0a275009e45821c7ea38337f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件/FloorBricksToGrassCorner_20 1.asset using Guid(b0fddf0a275009e45821c7ea38337f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fccd9d33c7d0e9fa62c5197e636a52') in 0.013840 seconds
+  Import took 0.055838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/物件/FloorBricksToGrassCorner_26 1.asset
+  artifactKey: Guid(561ff0df2442e0044a809a79356fe93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/物件/FloorBricksToGrassCorner_26 1.asset using Guid(561ff0df2442e0044a809a79356fe93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd1dc25ff3131e0faaf587e5f99faf0') in 0.007592 seconds
+  Import took 0.043673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.214891 seconds.
+  path: Assets/Animation/RobotLeft.anim
+  artifactKey: Guid(33c64a77141ef1e4b8b93edbbc2de0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RobotLeft.anim using Guid(33c64a77141ef1e4b8b93edbbc2de0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a363094b9c0b654435f9b73aab1b3f') in 0.015958 seconds
+  Import took 0.060946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002892 seconds.
+  path: Assets/Animation/RobotWorkDown.anim
+  artifactKey: Guid(d84fc14e8f298794f9f32ed1b7bc25a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RobotWorkDown.anim using Guid(d84fc14e8f298794f9f32ed1b7bc25a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183b0f98e58fa9d1e15a25f8d85c7003') in 0.010457 seconds
+  Import took 0.066634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155753 seconds.
+  path: Assets/Animation/RubyRunSide1.controller
+  artifactKey: Guid(8d9c30bc519bcaf46bfd70935637bb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RubyRunSide1.controller using Guid(8d9c30bc519bcaf46bfd70935637bb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82689bfbeb46a1301408b5f6d4bf56f') in 0.011558 seconds
+  Import took 0.031119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.252966 seconds.
+  path: Assets/Animation/RubyWorkUp.anim
+  artifactKey: Guid(a1c9caf677a202547b04c4ce285086e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RubyWorkUp.anim using Guid(a1c9caf677a202547b04c4ce285086e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c5d8ecbc956637168fdafe1aad24b1') in 0.005973 seconds
+  Import took 0.317155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.161213 seconds.
+  path: Assets/Animation/RubyRunDown1.controller
+  artifactKey: Guid(b3325856ba0de244cac4d874b5b5b7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RubyRunDown1.controller using Guid(b3325856ba0de244cac4d874b5b5b7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba82de322158f54785cadaae731b824') in 0.009105 seconds
+  Import took 0.074439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168039 seconds.
+  path: Assets/Animation/RubyRight.anim
+  artifactKey: Guid(6d083c4890ba90e4495caee6fb0f037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RubyRight.anim using Guid(6d083c4890ba90e4495caee6fb0f037d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543e9ae32f61232bdd100c20c430d008') in 0.009841 seconds
+  Import took 0.013099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001513 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(0045cadc7880c4a4da4ebf9d95611da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(0045cadc7880c4a4da4ebf9d95611da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa53020b8e7e80d1b5e1ae7fe3b86381') in 0.006876 seconds
+  Import took 0.136814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004259 seconds.
+  path: Assets/Animation/RubyRunUp1.controller
+  artifactKey: Guid(1d6596b00ce95b24b9faa534445568b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RubyRunUp1.controller using Guid(1d6596b00ce95b24b9faa534445568b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6241a8875d6e84daa9cf36439a40d7fd') in 0.013859 seconds
+  Import took 0.068558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002345 seconds.
+  path: Assets/Animation/MrClockworkIdleUp.controller
+  artifactKey: Guid(dfb74548338c07d4da2f5c6d212ed1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MrClockworkIdleUp.controller using Guid(dfb74548338c07d4da2f5c6d212ed1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c66711eb698a74109e2603e14307076') in 0.007039 seconds
+  Import took 0.025527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002885 seconds.
+  path: Assets/Animation/RubyWorkDown.anim
+  artifactKey: Guid(504d768f9bd12dc4c8e2a7c41967ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RubyWorkDown.anim using Guid(504d768f9bd12dc4c8e2a7c41967ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e3ee3b418d8cbe967e3922143677a8') in 0.006358 seconds
+  Import took 0.009388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002343 seconds.
+  path: Assets/Animation/RobotWorkUp.anim
+  artifactKey: Guid(3e5446f9aa5102143a8e3306fa9cb420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RobotWorkUp.anim using Guid(3e5446f9aa5102143a8e3306fa9cb420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea463f1e13fcfc8ee220daef2e5d3010') in 0.006648 seconds
+  Import took 0.064931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023641 seconds.
+  path: Assets/Animation/MrClockworkWalkSides1.controller
+  artifactKey: Guid(444b9ef5e679ead40b9de309bbb64c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MrClockworkWalkSides1.controller using Guid(444b9ef5e679ead40b9de309bbb64c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d9ff51cdcb7090dbd9ad48afeb0f03') in 0.011448 seconds
+  Import took 0.038761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002745 seconds.
+  path: Assets/Animation/MrClockworkFixed1.controller
+  artifactKey: Guid(b82255dfefcca61439db4b10ddccd3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MrClockworkFixed1.controller using Guid(b82255dfefcca61439db4b10ddccd3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c344896c55e07f586d3202acfcfd1b') in 0.006010 seconds
+  Import took 0.009241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002328 seconds.
+  path: Assets/Animation/RubyLeft.anim
+  artifactKey: Guid(c19abd391ae16b940b12ff235d7baf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RubyLeft.anim using Guid(c19abd391ae16b940b12ff235d7baf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39bd9a881c52ce7b116deb2cc3dcfab') in 0.006345 seconds
+  Import took 0.040926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002555 seconds.
+  path: Assets/Animation/RubyRunSide1 (1).controller
+  artifactKey: Guid(3e1009a2cccfa104390e007ffb3f7834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RubyRunSide1 (1).controller using Guid(3e1009a2cccfa104390e007ffb3f7834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b173d86f378fff7572a9ee238bc89ae0') in 0.006403 seconds
+  Import took 0.028725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002796 seconds.
+  path: Assets/Animation/MrClockworkWalkDown1.controller
+  artifactKey: Guid(ed6e47b3c9a78d445b78da8d66508527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MrClockworkWalkDown1.controller using Guid(ed6e47b3c9a78d445b78da8d66508527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6be074964de78f083a23667c828051c') in 0.024731 seconds
+  Import took 0.027940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002398 seconds.
+  path: Assets/Animation/RobotRight.anim
+  artifactKey: Guid(3c4a3914175b0b04fad1f544ba04480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/RobotRight.anim using Guid(3c4a3914175b0b04fad1f544ba04480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94de2d3e5b403e592893b91e3d49413c') in 0.005261 seconds
+  Import took 0.041797 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
